@@ -1,0 +1,113 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--primary-color) url('../images/bg-mobile.svg') no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    height: 100vh;
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+}
+
+.container .header {
+    margin-bottom: 68px;
+    text-align: center;
+}
+
+.container .header img {
+    width: 120px;
+}
+
+
+.container .mockup {
+    width: 100%;
+    margin-bottom: 68px;
+}
+
+.container .mockup img {
+    width: 100%;
+}
+
+.container .info-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .info-register h1 {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.container .info-register p {
+    line-height: 150%;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #FFF;
+}
+
+.container .info-register button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 2.8rem;
+    background-color: #fff;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    margin-bottom: 50px;
+}
+
+.container .info-register button:hover {
+    background-color: var(--hover-color);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 3px 3px 15px #2D1D59;
+}
+
+.container .socials ul {
+    display: flex;
+    font-size: 2.8rem;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container .socials li .rounded {
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .socials a {
+    color:  #fff;
+    font-size: 1.8rem;
+}
+
+.container .socials a:hover {
+    color: var(--hover-color);
+}
+
+.container .socials .rounded:hover {
+    border: 1px solid var(--hover-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

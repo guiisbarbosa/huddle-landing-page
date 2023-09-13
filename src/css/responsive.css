@@ -1,0 +1,125 @@
+@media (min-width: 576px) {
+
+    .container .header img {
+        width: 200px;
+    }
+
+    .container .info-register h1 {
+        font-size: 2.7rem;
+    }
+    
+    .container .info-register p {
+        font-size: 1.8rem;
+    }
+    
+    .container .info-register button {
+        width: 200px;
+        height: 45px;
+        border: none;
+        border-radius: 2.8rem;
+        background-color: #fff;
+        color: var(--primary-color);
+        font-size: 1.6rem;
+        margin-bottom: 50px;
+    }
+    
+    .container .info-register button:hover {
+        background-color: var(--hover-color);
+        color: #fff;
+        cursor: pointer;
+        box-shadow: 3px 3px 15px #2D1D59;
+    }
+    
+    .container .socials {
+        display: flex;
+        font-size: 2.8rem;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+/* RESPONSIVIDADE MIN 1200px */
+
+@media (min-width: 1200px) {
+
+    body {
+    background: var(--primary-color) url('../images/bg-desktop.svg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .container {
+        max-width: 1300px;
+        margin: 0px 80px;
+        padding: 0;
+        display: grid;
+        grid:
+        'header header'
+        'mockup info'
+        'socials socials'
+        / 2fr 1fr;
+    }
+
+    .container .header {
+        grid-area: header;
+        margin-bottom: 100px;
+        text-align: left;
+    }
+
+    .container .header img {
+        width: 200px;
+    }
+
+    .container .mockup {
+        grid-area: mockup;
+        margin-bottom: 0;
+    }
+    
+    .container .mockup img {
+        max-width: 845px;
+    }
+
+    .container .info-register {
+        grid-area: info;
+        flex-direction: column;
+        align-items: start;
+        margin-left: 60px;
+        margin-top: 46px;
+    }
+
+    .container .info-register h1 {
+        font-size: 2.7rem;
+        text-align: left;
+    }
+    
+    .container .info-register p {
+        font-size: 1.8rem;
+        text-align: left;
+    }
+    
+    .container .socials {
+        grid-area: socials;
+        gap: 15px;
+        justify-content: end;
+        margin-top: 27px;
+    }
+
+    .container .socials li .rounded {
+        border: 1px solid #FFF;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .socials a {
+        color:  #fff;
+        font-size: 2rem;
+    }
+    
+}
