@@ -1,3 +1,4 @@
+/* RESPONSIVIDADE MIN 576px */
 @media (min-width: 576px) {
 
     .container .header img {
@@ -13,14 +14,8 @@
     }
     
     .container .info-register button {
-        width: 200px;
         height: 45px;
-        border: none;
-        border-radius: 2.8rem;
-        background-color: #fff;
-        color: var(--primary-color);
         font-size: 1.6rem;
-        margin-bottom: 50px;
     }
     
     .container .info-register button:hover {
@@ -49,12 +44,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 410px 0;
+    /* padding: 410px 0; */
     }
 
     .container {
         max-width: 1300px;
-        /* max-height: 700px; */
         margin: 0px 80px;
         padding: 0;
         display: grid;
@@ -62,7 +56,6 @@
         'header header'
         'mockup info'
         'socials socials'
-        / 2fr 1fr;
     }
 
     .container .header {
@@ -100,6 +93,7 @@
     .container .info-register p {
         font-size: 1.8rem;
         text-align: left;
+        max-width: 360px;
     }
     
     .container .socials {
@@ -110,13 +104,8 @@
     }
 
     .container .socials li .rounded {
-        border: 1px solid #FFF;
-        border-radius: 50%;
         width: 40px;
         height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .container .socials a {

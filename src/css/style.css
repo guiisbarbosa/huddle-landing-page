@@ -21,7 +21,6 @@ body {
 
 .container .header {
     margin-bottom: 68px;
-    text-align: center;
 }
 
 .container .header img {
@@ -87,7 +86,7 @@ body {
 }
 
 .container .socials li .rounded {
-    border: 1px solid #FFF;
+    border: 2px solid #FFF;
     border-radius: 50%;
     width: 35px;
     height: 35px;
