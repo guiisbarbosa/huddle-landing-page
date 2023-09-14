@@ -49,10 +49,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 410px 0;
     }
 
     .container {
         max-width: 1300px;
+        /* max-height: 700px; */
         margin: 0px 80px;
         padding: 0;
         display: grid;
